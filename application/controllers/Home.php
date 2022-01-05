@@ -24,5 +24,9 @@ class Home extends CI_Controller {
         $this->security->get_csrf_hash(); // get CSRF Token generate
         $this->load->view('home');
     }
+    public function test()
+    {
+        # code...
+    }
     
 }
