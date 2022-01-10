@@ -8,7 +8,7 @@ class Home extends CI_Controller {
 		parent::__construct();
 		$this->load->helper('url');
 		$this->load->library('form_validation'); 
-		$this->load->model('Product_model');
+		$this->load->model('Portfolio_model');
 	}
     /**
      * index function
@@ -16,12 +16,14 @@ class Home extends CI_Controller {
      *
      * @return html form
      */
-	public function index(){
+	public function index()
+    {
 
         // $data['products'] = $this->Product_model->fecthAll(); // call all products
 
         $this->security->get_csrf_token_name(); // initial CSRF name
         $this->security->get_csrf_hash(); // get CSRF Token generate
+        
         $this->load->view('home');
     }
     public function test()

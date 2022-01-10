@@ -7,15 +7,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-	<meta name="description" content="32Decor">
-	<meta name="author" content="32Decor">
+	<meta name="description" content="burapha-demo">
+	<meta name="author" content="burapha-demo">
 
-	<title>Home | 32Decor </title>
+	<title>Home | burapha-demo </title>
 
-	<link rel="icon" type="image/png" href="<?=base_url('assets/img/logo/logo1.png');?>" />
+	<link rel="icon" type="image/png" href="<?=base_url('assets/images/logo1.png');?>" />
     <link rel="shortcut icon" type="image/ico" href="<?=base_url('assets/img/logo/logo1.png');?>">
-    <link rel="apple-touch-icon-precomposed" type="image/ico" sizes="114×114" href="<?=base_url('assets/img/logo/logo1.png');?>">
-    <link rel="apple-touch-icon-precomposed" type="image/ico" sizes="72×72" href="<?=base_url('assets/img/logo/logo1.png');?>">
+    <link rel="apple-touch-icon-precomposed" type="image/ico" sizes="114×114" href="<?=base_url('assets/images/logo1.png');?>">
+    <link rel="apple-touch-icon-precomposed" type="image/ico" sizes="72×72" href="<?=base_url('assets/images/logo1.png');?>">
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="<?=base_url('./assets/admin/assets/css/bootstrap.css');?>">
@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="page">
 		<div class="page-header h-300 mb-30">
       		<div class="text-center blue-grey-800 m-0 mt-50">
-		        <div class="font-size-50 mb-30 blue-grey-800">- 32Decor -</div>
+		        <div class="font-size-50 mb-30 blue-grey-800">- burapha-demo -</div>
 		        <ul class="list-inline font-size-14">
 		          	<li class="list-inline-item">
 			            <i class="icon wb-settings mr-5" aria-hidden="true"></i> Back Office Management system

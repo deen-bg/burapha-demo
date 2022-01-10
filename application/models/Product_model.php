@@ -106,16 +106,7 @@ class Product_model extends CI_Model {
     {
         date_default_timezone_set("Asia/Bangkok");
         $cur_date = date("Y-m-d H:i:s");
-        /*
-
-        $data = array(
-                'name'          => $name,
-                'short_dsc'     => $short_dsc,
-                'description'   => $description
-            );
-
-        */
-    
+            
         $data = array(
             'name'          => $arr['name'],
             'dsc'           => $arr['description'],
@@ -127,7 +118,7 @@ class Product_model extends CI_Model {
             'create_date'   => $cur_date,
             'update_date'   => $cur_date
         );
-        $this->db->insert('tbl_product', $data);
+        $this->db->('tbl_product', $data);
         $insert_id = $this->db->insert_id();
         $result =$this->db->affected_rows();
         if ($result > 0) {

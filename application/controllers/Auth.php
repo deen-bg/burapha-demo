@@ -20,6 +20,7 @@ class Auth extends CI_Controller {
 		$passwd =$this->security->xss_clean($this->input->post('password', TRUE));
 
 		if($usename !='' && $passwd !='' && $token !=''){
+			// true
 			$response = $this->Authenticate_model->checkLoggedIn($usename,$passwd);
 			if($response['status'] ==200){
 				$arrayData = array(
